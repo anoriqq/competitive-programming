@@ -22,6 +22,11 @@ https://atcoder.jp/contests/abc158/submissions/10641439
 https://cpprefjp.github.io/lang/cpp11/long_long_type.html
 知った  
 
+これも制約を見て`long long`型を使う必要があるか判断するのか  
+`int`は4byte (`-2^31 < x < (2^31)-1`) までの数値が扱える  
+`10^18`になる可能性がある変数は`10 ** 18 > (2 ** 31) - 1`が真なので`int`では扱えない  
+なるほど  
+
 #### C - Tax Increase
 
 cは集中力切れて途中で終戦  
