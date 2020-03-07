@@ -14,5 +14,7 @@ c++の比較演算子が心配だったのでググった
 
 b問はどうしてエラーなのか分からないのでとばした  
 `long long int`を使ったら通った  
+https://cpprefjp.github.io/lang/cpp11/long_long_type.html
+知った  
 
 cは集中力切れて途中  
